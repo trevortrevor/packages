@@ -21,13 +21,7 @@ define Package/mqttled
   CATEGORY:=Utilities
   TITLE:=LED Control from MQTT 
   URL:=https://github.com/trevortrevor/mqttled/
-  DEPENDS:= \
-	+python3-light \
-    +python3-paho-mqtt \
-	+python3-asyncio \
-	+python3-uci \
-	+python3-logging \
-	+python3-idna
+  DEPENDS:= +python3-light +python3-paho-mqtt +python3-asyncio +python3-uci +python3-logging +python3-idna
 endef
 
 define Package/mqttled/description
