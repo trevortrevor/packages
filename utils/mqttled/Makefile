@@ -14,7 +14,7 @@ PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
 
 include $(INCLUDE_DIR)/package.mk
-include ../../../lang/python/python3-package.mk
+include ../../lang/python/python3-package.mk
 
 define Package/mqttled
   SECTION:=utils
