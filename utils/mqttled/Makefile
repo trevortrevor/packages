@@ -7,7 +7,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/trevortrevor/mqttled.git
-PKG_SOURCE_VERSION:=
+PKG_SOURCE_VERSION:=6691bbdc2713f561691dcd06b3b1459aa60f6d36
 
 PKG_MAINTAINER:=Tom Grime <tom.grime@gmail.com>
 PKG_LICENSE:=MIT
